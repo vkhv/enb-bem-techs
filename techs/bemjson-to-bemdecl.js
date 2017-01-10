@@ -185,3 +185,5 @@ function depKey(dep) {
         (dep.elem ? '__' + dep.elem : '') +
         (dep.mod ? '_' + dep.mod + (dep.val ? '_' + dep.val : '') : '');
 }
+
+module.exports.getDepsFromBemjson = getDepsFromBemjson;
